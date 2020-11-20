@@ -1,0 +1,87 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body, html {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: helvetica;
+  overflow: auto;
+  font-weight: 100;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+.router-heading {
+  position: relative;
+}
+.btn-addRouter {
+  position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.footer {
+  background-color: #343a40 !important;
+  position:static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: left;
+}
+
+.card {
+  width: 18rem;
+  align-items: center;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
