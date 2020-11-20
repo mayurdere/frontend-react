@@ -54,7 +54,6 @@ const Signup = () => {
                 <button className="btn btn-lg btn-primary btn-block mt-2" type="submit">Sign up</button>
             </form>
             }
-            <Footer/>
         </div>
     );
 }
